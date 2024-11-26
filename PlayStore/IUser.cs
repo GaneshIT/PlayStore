@@ -51,6 +51,48 @@ namespace PlayStore
             throw new NotImplementedException();
         }
     }
-    class Insta : UserAbs { }
-    class Amazon : UserAbs { }
+    class Insta : UserAbs
+    {
+        public override void AddUser()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Deleteuser()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void GetUser()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Updateuser()
+        {
+            throw new NotImplementedException();
+        }
+    }
+    class Amazon : UserAbs
+    {
+        public override void AddUser()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Deleteuser()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void GetUser()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Updateuser()
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
